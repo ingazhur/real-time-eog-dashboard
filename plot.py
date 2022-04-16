@@ -14,7 +14,7 @@ import csv
 import subprocess
 import serial
 
-period = 3.9 # Arduino writes into serial port every 3.9ms (~ 256Hz sampling frequency)
+period = 4 # Arduino writes into serial port every 4ms (~ 250Hz sampling frequency)
 
 # setup .csv file
 now = datetime.now()
